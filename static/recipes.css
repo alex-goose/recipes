@@ -1,0 +1,93 @@
+#container-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+}
+
+/* BEGIN name styling */
+#recipe-name {
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-name-input {
+    margin-right: 10px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+/* END name styling */
+
+
+/* BEGIN ingredient input */
+#input-container{
+    display: flex;
+    height: 25px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#amount {
+    margin-right: 10px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+
+#unit-of-mes {
+    margin-right: 10px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+#ingredients-input {
+    margin-right: 10px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    color: black;
+
+}
+/* END ingredient input */
+
+
+/* BEGIN instructions input */
+#instruction-input-container {
+    display: flex;
+    justify-content: center;
+}
+
+#instructions-input {
+    margin-right: 10px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+/* END instruction input */
+
+
+button {
+    color: #CD853F;
+    background: #FFEFD5;
+    border-color: #CD853F;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+button:hover {
+    color: #FFEFD5;
+    background: #CD853F;
+}
+  
